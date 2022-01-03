@@ -1,4 +1,4 @@
-# Java Tic-Tac-Toe  sample project
+# Tic-Tac-Toe  Java sample project with explaination
 We will create a basic Tic-Tac-Toe game in Java.</br>
 ![1](https://user-images.githubusercontent.com/73010204/147872658-7ded9873-c59d-44f9-bc85-0313e6c4e9a6.png)
 ![2](https://user-images.githubusercontent.com/73010204/147872659-db3fd275-f99f-4315-a3d4-daec77605de8.png)
