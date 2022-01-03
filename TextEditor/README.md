@@ -10,7 +10,7 @@ Create a _TextEditor_ class that extends _JFrame_ and implements _ActionListener
 ```sh
 public class TextEditor extends JFrame implements ActionListener
 ```
-Firstly, set the main frame size, center position when displayed, and will be closed when user press **X** button
+Firstly, set the mainframe size, center position when displayed, and will be closed when the user presses the **X** button
 ```sh
 static final int WIDTH = 800;
 static final int HEIGHT = 800;
@@ -22,7 +22,7 @@ public TextEditor() {
 	this.setLocationRelativeTo(null);
 }
 ```
-Create a JTextArea, put it on a JScrollPane, then add this scroll pane _this_.
+Create a JTextArea, put it on a JScrollPane, then add this scroll pane to _this_.
 ```sh
 JTextArea textArea;
 JScrollPane scrollPane;
@@ -38,8 +38,8 @@ scrollPane.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_AS_
 
 this.add(scrollPane);
 ```
-You can choose another ScrollPaneConstants attribute like _VERTICAL_SCROLLBAR_ALWAYS_</br>
-Next, we will add _JSpinner_ to adjust the font size, also add a _JLabel_ labeled "Font:" for easier to understand.
+You can choose another ScrollPaneConstants attribute like _VERTICAL_SCROLLBAR_ALWAYS_...</br>
+Next, we will add a _JSpinner_ to adjust the font size, also add a _JLabel_ labeled "Font:" for easier to understand.
 ```sh
 JLabel fontLabel;
 JSpinner fontSizeSpinner;
@@ -95,7 +95,7 @@ fontBox.addActionListener(this);
 		...
 	}
 ```
-Finally, we need a _JMenuBar_ which has only 1 _JMenu_ containing 3 JMenuItem for _open_, _save_ and _exit function. Then _setJMenuBar_ to _this_.</br>
+Finally, we need a _JMenuBar_ which has only 1 _JMenu_ containing 3 JMenuItem for _open_, _save_ and _exit_ function. Then call _this.setJMenuBar(menuBar)_ to add it.</br>
 JFileChooser is used to show save dialog and open dialog.
 ```sh
 JMenuBar menuBar;
@@ -123,7 +123,7 @@ menuBar.add(fileMenu);
 this.setJMenuBar(menuBar);
 ```
 ## Completed source code
-**Calculator.java**
+**TextEditor.java**
 ```sh
 package TextEditor;
 
