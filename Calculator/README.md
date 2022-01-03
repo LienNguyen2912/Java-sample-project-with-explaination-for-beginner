@@ -1,4 +1,4 @@
-# Calculator Java sample project with explaination
+# Calculator - Java sample project with explaination
 We will create a simple Calculator application in Java.</br>
 ![1](https://user-images.githubusercontent.com/73010204/147894816-6147591f-eee6-4483-a415-9aa391d63e9f.png)
 ![2](https://user-images.githubusercontent.com/73010204/147894819-099887ee-bc65-4f17-bc54-f83d83cc8250.png)
@@ -8,7 +8,8 @@ Create a _Calculator_ class that implements _ActionListener_
 ```sh
 public class Calculator implements ActionListener
 ```
-![3](https://user-images.githubusercontent.com/73010204/147895582-38076b2c-4a08-4b5e-9b73-6a9b848aa77b.png)
+The GUI components will be arranged as below</br>
+![3](https://user-images.githubusercontent.com/73010204/147895582-38076b2c-4a08-4b5e-9b73-6a9b848aa77b.png)</br>
 Create a frame to contain all widgets.</br>
 When user click **X** button, the application is closed too
 ```sh
