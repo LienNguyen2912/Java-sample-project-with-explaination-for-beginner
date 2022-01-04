@@ -13,7 +13,6 @@ import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 import javax.swing.filechooser.FileNameExtensionFilter;
 
-//https://www.youtube.com/watch?v=NKjqAQAtq-g
 public class TextEditor extends JFrame implements ActionListener {
 	static final int WIDTH = 800;
 	static final int HEIGHT = 800;
@@ -45,7 +44,7 @@ public class TextEditor extends JFrame implements ActionListener {
 
 		scrollPane = new JScrollPane(textArea);
 		scrollPane.setPreferredSize(new Dimension(700, 700));
-		scrollPane.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
+		scrollPane.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_AS_NEEDED);
 
 		// Add font edit functionality
 		fontLabel = new JLabel("Font: ");
