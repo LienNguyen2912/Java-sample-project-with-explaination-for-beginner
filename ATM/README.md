@@ -15,7 +15,7 @@ A bank may have many users and many accounts. A user can have one or many accoun
 - 5 Quit
 
 ★**If the user selects 1**, the account index to show transaction history will be asked. Please remember that a user can have mutliple accounts</br>
-![6](https://user-images.githubusercontent.com/73010204/148015229-4504fcb1-3c8e-4987-ad54-6fa57813bdaf.PNG)
+![6](https://user-images.githubusercontent.com/73010204/148015229-4504fcb1-3c8e-4987-ad54-6fa57813bdaf.PNG)</br>
 ★**If the user selects 2**, prompt for the user to enter the account index to withdraw and the amount. The amount input must be less than the account balance. Then a withdrawal transaction will be created and executed.</br>
 ★**If the user selects 3**, prompt for user to enter the account index to deposit and the amount. Then a deposit transaction will be created and executed.</br>
 ![4](https://user-images.githubusercontent.com/73010204/148015227-6d033f84-08ab-428c-b5ae-3a59fdb2e7c0.PNG)</br>
@@ -35,7 +35,7 @@ We will create 4 classes:
 ## Sequence diagram
 Below is the sequence diagram when the application starts</br>
 ![b](https://user-images.githubusercontent.com/73010204/148015233-86e9ad92-b032-41b0-8f3d-1da23db7e8db.PNG)</br>
-Next is the sequence diagram when the user logins, or selects 2. Because the diagrams of other selections are similar so no need to draw all.</br>
+Next is the sequence diagram when the user logins, and selects 1, 2. Because the diagrams of other selections are similar so no need to draw all, I think :D.</br>
 ![d](https://user-images.githubusercontent.com/73010204/148021240-6852dc75-241c-4d60-8183-95caf61bc92d.PNG)
 
 ## Completed source code
